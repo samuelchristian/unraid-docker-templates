@@ -3,12 +3,12 @@
   <Beta>True</Beta>
   <Category>Network Services:</Category>
   <Name>mee-bot</Name>
-  <Overview>Mee-bot is a simple discord bot aimed at developers</Overview>
+  <Overview>Leumbot is a simple discord bot aimed at developers</Overview>
   <license>MIT</license>
   <Description>
-Mee Bot. Discord bot
+Leumbot. A Discord bot
   </Description>
-  <Registry>https://hub.docker.com/r/samchristian/mee-bot/</Registry>
+  <Registry>https://hub.docker.com/r/samchristian/leumbot/</Registry>
   <GitHub>https://github.com/balloob/docker-home-assistant</GitHub>
   <Repository>samchristian/mee-bot:latest</Repository>
   <BindTime>true</BindTime>
