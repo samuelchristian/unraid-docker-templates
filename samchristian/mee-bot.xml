@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Beta>True</Beta>
+  <Category>Network Services:</Category>
+  <Name>mee-bot</Name>
+  <Overview>Mee-bot is a simple discord bot aimed at developers</Overview>
+  <license>MIT</license>
+  <Description>
+Mee Bot. Discord bot
+  </Description>
+  <Registry>https://hub.docker.com/r/samchristian/mee-bot/</Registry>
+  <GitHub>https://github.com/balloob/docker-home-assistant</GitHub>
+  <Repository>samchristian/mee-bot:latest</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish />
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/app_config/leumas-mee-bot/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5012]</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/leumas-mee-bot" Mode="rw" Description="This path is where Mee Bot will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
